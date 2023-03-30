@@ -11,9 +11,7 @@ Please place these folders in your `~/.config` folder.
 To avoid plugin installation issues, the local folder has it preinstalled for you.
 All you have to do is follow the next instructions.
 
-## Local
+### Other Installation issues
 
-This one might take a little effort. First, inside the local folder, there will be 2 other folders, share and state.
-Inside each will be various files and folders. Please copy them to their respective location, `~/.local/state` or `~/.local/share`. Please don't overwrite the original folder, copy the individual files. You might erase some of your own other config files. Once done, reload nvim.
-
-You're done!
+For the installation of coc.nvim, you may have to go to a plugin's
+install directory. On a mac that is the `~/.local/share/nvim/lazy` folder. In there, navigate to the plugin folder, and there are its files. It's config however, are in the `~/.config/nvim` folder somewhere. For coc.nvim, please navigate to its install directory and run `yarn install`.
